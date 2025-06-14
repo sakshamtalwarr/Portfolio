@@ -1,6 +1,7 @@
 Saksham Talwar - Developer Portfolio
+
 [Live Demo](https://sakshamtalwarr.github.io/Portfolio/)
-https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif">
 Overview
 This repository hosts the source code for my personal developer portfolio website. It serves as a comprehensive showcase of my technical skills, diverse projects, and professional journey. Explore the live site to see my work in action and learn more about my capabilities as a Software and Web Developer.
 
