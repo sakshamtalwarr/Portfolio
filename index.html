@@ -176,7 +176,7 @@
             text-align: center;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow */
             transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-            border: 1px solid transparent; /* Initial transparent border */
+            border: 2px solid transparent; /* Initial transparent border */
         }
         .skill-card:hover, .service-card:hover, .project-card:hover {
             transform: translateY(-8px);
@@ -522,6 +522,8 @@
         /* Ensure card backgrounds are also semi-transparent */
         .skill-card, .service-card, .project-card, .contact-info-item, #mobile-menu {
             background-color: rgba(0, 0, 0, 0.881); /* Semi-transparent dark background for cards/menu */
+            border: #0077B5 1px solid;
+            border-radius: 12px;
         }
     </style>
 </head>
