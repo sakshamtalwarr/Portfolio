@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Talwar - Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style type="text/css">
+        body {
+            cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhEaLQAABrYAAAT9AAAB/AAAAf0AAAL8AQEE/AUDCLYpJywLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIG/wAAAP4AAAD/AgEC/wIBAv8CAQL/BAIE/wEAAf8BAAH/AQAA/wAAAP8AAAH9DgwTkRgXHwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEBoCAAAF/QAAAP8BAAH/AgEC/318ff/8/Pz//Pv8//38/P/+/v7//v7+//z8/f/8/Pz/Ojg5/wEAAf8BAAH/AgAF/gUFCgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsYAgIBA/4CAQL/DAwM//79/v///f///////////////////////////////////////////////v///Pv8/2hmaP8BAAH/AAAF/xcYImIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoIFSEBAAL+AQAB//Px8v///v7///////////////////////////////////////////////////////////////////////v7+/8BAAH/AQAC/wwNFDMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBxEFAQAD/gEBAf/+/v7///7///////////////////////////////////////////////////////////////////////////////7+//38/f8BAQH/AQAB/gwOFQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/4CAQP/9fX1///+/////////////////////////////////////////////////////////////////////////////////////////v7+/+jn6P8CAQL/AAAC+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWFSQkAAAC/xYVFv/8+/z///////////////////////////////////////////////////////////////////////////////////////////////////7//wAAAP8BAAP/Wl1nLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAv0AAAD//fz9/////////////////////////////////////////////////////////////////////////////////////////////////////////////Pv8/wAAAP8DAgf+AAAAAAAAAAAAAAAAAAAAAAAAAAAZGCcHAQAD/wEBAf/+/v7////////////////////////////////////////////////////////////////////////////////////////////////////////////9/P3/AQAB/wEAAf0AAAAAAAAAAAAAAAAAAAAAAAAAAAAACP4BAAD/8O/w//////////////////////////////////////////////////////////////////////////////////////////////////////////////////7+/v8CAQL/AgEC/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/gAAAP/+/f7////////////+//7//////////////////////////////////////////////////////////////////////////////////////////////////v/+/wIBAf8CAAP/AAAAAAAAAAAAAAAAAAAAAAYJEQEAAAP/AAAA//////////////7//wkJCf+Xlpf///7//////////////////////////////////////////////////////////////////////////////////////////v//AAAA/wEAA/8AAAAAAAAAAAAAAAAAAAAADxQqTgEBAv/Qz9D////////////9+/3/AgEC/zY1Nv////////7///////////////////////////////////////////////////////////////////////////////////7+/v8BAAH/AQAC/AAAAAAAAAAAAAAAAAAAAAABAhDAAAAA//7+/v////////////7+/v8EAwT/R0ZH//////////////////////////////////////////////////////////////////////////////////////////////7//wAAAP8CAQL+AAAAAAAAAAAAAAAAAAAAAAAACPwAAAD//v7+/////////////f39/wIBAv9TUVP//v3+//////////////////7//v/+//////////////////////////////////////////79/v8AAAD/z83P///////+/v7/AAAA/wIAAf4AAAAAAAAAAAAAAAAAAAAAAAAI/gQEBP///v/////////////9/P3/AAAA/2hnaP///v/////////////+/v7/S0pL//79/v///////////////////////v7+/////////////////wAAAP8qKir//v7+//////8BAAH/AQAB/gAAAAAAAAAAAAAAAAAAAAAAAAP9CAcH//7+/v////////////79/v8AAAD/eHd4/////////////////8rIyv8CAAH/sa+x/////////////fz9/wIBAv90c3T/////////////////AQAB/zo6Ov/+/v7//v7+/wEAAf8AAAD+AAAAAAAAAAAAAAAAAAAAAAAABv4RERH//v/+///////+//7/FBQU/wEAAf+dm5z///7/////////////xsXG/wAAAP+7urr////////////+/v7/AQAB/wEBAf////////////79/v8BAAH/ExMT//78/v/+/v7/AwID/wAAAP0AAAAAAAAAAAAAAAAAAAAAAAAI/QEBAf/+/v7//v7+/87Mzv8AAAD/AQAB/66trv/////////////////FxMX/AQAB/7q5uv////////////37/f8BAAH/AQEB///9////////9/b3/wEAAv8CAQL/U1JT/wcHB/8BAAH/AwIM8AAAAAAAAAAAAAAAAAAAAAAAAxAEAAAB/wAAAf8EAgT/AAAA/wEAAv8BAAP/xcHE/////////////////8LBwv8AAAD/s7Kz//79/v///v//+vr6/wEAAf8CAQL///3////+/v/y8PH/AQAB/wEAAf8AAAD/AQAA/wEAAf4UHCwCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIXdwAACN0AAAbHFxwwCgEAAf/m5Ob/////////////////w8HC/wEAAf+zsbP///7////+///+/v7/AAAA/wEAAf///v///////wIBAv8AAAL+DBEgZwABDuQAAQzkDQ0aJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEy4BBQAA/+jn6P///v/////////////DwcL/AAAB/1pYWv/+/f7//v7//359fv8BAAH/AQAB/wEAAf8BAAH/AgAA/wcMHoUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDBUFAAH/6+jq///+/////////////769vv8BAAH/AgEC/wEBAv8CAQT/AAAD/wAAAf4JDBxwAAAM9wIDCuAKEyEcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKHQUAA//w7+////7/////////////vr6+/wEAAf8AAQP9AAAD/AAAAP0AAAb2AQILAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgsYAgAG//Pz8/////////////////+joaP/AQAA/wcLDhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCkBAAX/9fX3/////////////////6Ggof8BAAD/JSYoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGNAEAAf/5+fn/////////////////i4qL/wEAAf8AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsbAgAA//Ly8v/+/v7///////////9ZWVn/AgAC/wUGCwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAP+AgED//n4+f/+/v7//v7+/wUEBf8CAAD+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG5kBAAT/AQEC/wEAAf8BAQP/AAAA/gEFDD0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIGykAARDWAAAM9QADEZ8FCRcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//wH///gAP//gAB//wAAP/4AAB/8AAAP+AAAB/gAAAfwAAAD8AAAA+AAAAPgAAAD4AAAA+AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPgAAAH+QAAT/8AAH//wAn//wAf//8B////Af///wH///8B////Af///wP////H//8='), auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .section-padding {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+        .header-bg {
+            background-color: #000000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-link {
+            font-family: 'Montserrat', sans-serif;
+            transition: color 0.3s ease;
+        }
+        .nav-link.active {
+            color: #58a6ff;
+            font-weight: 600;
+            border-bottom: 2px solid #58a6ff;
+            padding-bottom: 4px;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+            color: #e6edf3;
+            font-weight: 700;
+        }
+        /* Responsive H1 */
+        h1 {
+            font-size: 2.8rem;
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3.8rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+
+        h2 {
+            font-size: 2.8rem;
+            margin-bottom: 2.5rem;
+            position: relative;
+            text-align: center;
+        }
+        h2::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 5px;
+            background-color: #58a6ff;
+            margin: 0.2rem auto ;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+        .hero-section {
+            background-color: transparent;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #c9d1d9;
+            position: relative;
+            overflow: hidden;
+            background-image: none;
+        }
+        .hero-title {
+            font-weight: 800;
+            background: linear-gradient(45deg, #79c0ff, #a879ff, #58a6ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.1;
+            position: relative;
+            display: inline-block;
+            animation: text-glow 2s infinite alternate;
+            font-size: 3rem;
+        }
+        @media (min-width: 768px) {
+            .hero-title {
+                font-size: 4rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .hero-title {
+                font-size: 4rem;
+            }
+        }
+
+        .hero-subtitle {
+            font-weight: 600;
+            margin-top: 1rem;
+            color: #58a6ff;
+            font-size: 1.5rem;
+        }
+        @media (min-width: 768px) {
+            .hero-subtitle {
+                font-size: 2.0rem;
+            }
+        }
+
+        .hero-description {
+            max-width: 800px;
+            margin: 1.8rem auto 3rem;
+            font-size: 1.2rem;
+            color: #a0aec0;
+        }
+        .btn-primary {
+            background-color: #58a6ff;
+            color: #ffffff;
+            padding: 0.8rem 2.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3);
+        }
+        .btn-primary:hover {
+            background-color: #3b82f6;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(88, 166, 255, 0.5);
+        }
+        .icon-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #1f2a37;
+            color: #e6edf3;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+        }
+        .icon-link:hover {
+            background-color: #58a6ff;
+            transform: translateY(-4px);
+            color: #ffffff;
+        }
+        .icon-link .fa-github { color: #c9d1d9; }
+        .icon-link .fa-linkedin-in { color: #0077B5; }
+        .icon-link .fa-envelope { color: #d94a37; }
+        .icon-link .fa-phone { color: #28a745; }
+
+
+        .skill-card, .service-card, .project-card {
+            background-color: #000000;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .skill-card:hover, .service-card:hover, .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-color: #58a6ff;
+        }
+        .skill-card h3, .service-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: #58a6ff;
+        }
+        .skill-card ul li {
+            background-color: #2f3743;
+            color: #c9d1d9;
+            padding: 0.4rem 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            display: inline-block;
+            margin: 0.3rem;
+            list-style: none;
+            padding-left: 1rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .skill-card ul li::before {
+            content: none;
+        }
+        .service-card .icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.2rem;
+        }
+        .service-card .fa-code { color: #FFA500; }
+        .service-card .fa-mobile-alt { color: #32CD32; }
+        .service-card .fa-microchip { color: #9370DB; }
+        .service-card .fa-database { color: #DC143C; }
+        .service-card .fa-chart-bar { color: #00CED1; }
+        .service-card .fa-bug { color: #FFD700; }
+
+
+        .project-card-content {
+            padding: 1.5rem;
+        }
+        .project-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 0.8rem;
+            color: #58a6ff;
+        }
+        .project-card p {
+            color: #a0aec0;
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        .project-card .project-links a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-right: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .project-card .project-links a:hover {
+            color: #3b82f6;
+            text-decoration: underline;
+        }
+        .project-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        .skill-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #58a6ff;
+        }
+        .skill-card.programming .skill-icon { color: #E75480; }
+        .skill-card.concepts .skill-icon { color: #8C52FF; }
+        .skill-card.technologies .skill-icon { color: #20B2AA; }
+        .skill-card.databases .skill-icon { color: #FF6347; }
+        .skill-card.tools .skill-icon { color: #FFD700; }
+        .skill-card.os .skill-icon { color: #00CED1; }
+
+
+        .timeline-item {
+            position: relative;
+            padding-left: 3.5rem;
+            margin-bottom: 3rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.6rem;
+            width: 12px;
+            height: 12px;
+            background-color: #58a6ff;
+            border-radius: 50%;
+            border: 3px solid #3b82f6;
+            z-index: 1;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5.5px;
+            top: 1.5rem;
+            bottom: -0.5rem;
+            width: 2px;
+            background-color: #3b4252;
+        }
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        .timeline-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #e6edf3;
+            margin-bottom: 0.25rem;
+        }
+        .timeline-subtitle {
+            font-size: 1.05rem;
+            color: #a0aec0;
+            margin-bottom: 0.5rem;
+        }
+        .timeline-date {
+            font-size: 0.95rem;
+            color: #8b949e;
+            margin-bottom: 0.75rem;
+        }
+        .timeline-description {
+            font-size: 1rem;
+            color: #c9d1d9;
+        }
+
+        .contact-info-item {
+            background-color: #161b22;
+            padding: 2rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-info-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .contact-info-item .icon {
+            font-size: 2.5rem;
+            color: #58a6ff;
+        }
+        .contact-info-item a {
+            color: #c9d1d9;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .contact-info-item a:hover {
+            color: #58a6ff;
+        }
+
+        .iframe-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #161b22;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .iframe-container iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+
+        @media (min-width: 768px) {
+            .iframe-container iframe {
+                height: 700px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .iframe-container iframe {
+                height: 800px;
+            }
+        }
+
+        .animated-section {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .animated-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile navigation */
+        #mobile-menu-button {
+            display: none;
+            color: #e6edf3;
+        }
+        #mobile-menu {
+            display: none;
+            background-color: #020303;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2.2rem;
+            }
+            .hero-description {
+                font-size: 1.05rem;
+            }
+            .nav-links {
+                display: none;
+            }
+            #mobile-menu-button {
+                display: block;
+            }
+            #mobile-menu.open {
+                display: block;
+            }
+            #mobile-menu a {
+                display: block;
+                padding: 0.75rem 1.5rem;
+                border-bottom: 1px solid #2f3743;
+                color: #c9d1d9;
+                transition: background-color 0.2s ease;
+            }
+            #mobile-menu a:hover {
+                background-color: #2f3743;
+            }
+            .grid-cols-1-md-2 {
+                grid-template-columns: 1fr;
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-padding {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+            .hero-buttons {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: center;
+            }
+            .hero-buttons > * {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+        @keyframes text-glow {
+            0% { text-shadow: 0 0 5px rgba(88, 166, 255, 0.4), 0 0 10px rgba(88, 166, 255, 0.2); }
+            100% { text-shadow: 0 0 10px rgba(88, 166, 255, 0.6), 0 0 20px rgba(88, 166, 255, 0.4); }
+        }
+
+        /* --- Welcome Screen Styles --- */
+        #welcome-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #040607;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            color: #c9d1d9;
+            opacity: 0;
+            animation: fadeInWelcome 1s ease-out forwards;
+            transition: opacity 1s ease-out;
+        }
+
+        @keyframes fadeInWelcome {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        #welcome-screen.fade-out {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .spinner {
+            border: 5px solid rgba(255, 255, 255, 0.2);
+            border-top: 5px solid #58a6ff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-top: 2rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #main-content {
+            display: none;
+        }
+        
+        body {
+            background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXk1MW85OXB1eHg1cWF6cTUzOHAyM3pmdmx4ZmRnaDVnZ25iczZnNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHIKETUlUINYvV7CAO/giphy.gif');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: #0d1117;
+        }
+
+        .section-padding, .header-bg, footer {
+            background-color: rgba(0, 0, 0, 0.541);
+        }
+
+        .skill-card, .service-card, .project-card, .contact-info-item, #mobile-menu {
+            background-color: rgba(0, 0, 0, 0.881);
+            border: #0077B5 1px solid;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="welcome-screen">
+        <h2 class="text-5xl font-bold text-white mb-4">Welcome To <br>Saksham's Portfolio</h2>
+        <p class="text-2xl text-blue-400">Loading portfolio...</p>
+        <div class="spinner"></div>
+    </div>
+
+    <div id="main-content">
+        <header class="header-bg py-4">
+            <div class="container flex justify-between items-center relative">
+                <div class="text-2xl font-bold text-white">
+                    <img src="https://cdn.dribbble.com/userupload/16228809/file/original-a3c56545957c9ddc109bfaf663954b1e.jpg" alt="Saksham Talwar Logo" class="w-12 h-12 rounded-full border-2 border-white">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8 nav-links">
+                        <li><a href="#home" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Home</a></li>
+                        <li><a href="#about" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a></li>
+                        <li><a href="#services" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Services</a></li>
+                        <li><a href="#skills" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Skills</a></li>
+                        <li><a href="#projects" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a></li>
+                        <li><a href="#experience" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Experience</a></li>
+                        <li><a href="#contact" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="mobile-menu-button" class="text-white text-2xl focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="mobile-menu" class="md:hidden">
+                    <ul class="flex flex-col">
+                        <li><a href="#home" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Home</a></li>
+                        <li><a href="#about" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">About</a></li>
+                        <li><a href="#services" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Services</a></li>
+                        <li><a href="#skills" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Skills</a></li>
+                        <li><a href="#projects" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Projects</a></li>
+                        <li><a href="#experience" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Experience</a></li>
+                        <li><a href="#contact" class="mobile-nav-link block px-6 py-3 text-gray-300 hover:bg-gray-700 transition-colors duration-200">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero-section ">
+                <div class="container animated-section">
+                    <h4 class="text-blue-400 text-xl mb-4">Hello, my name is</h4>
+                    <h1 class="hero-title">Saksham Talwar</h1>
+                    <p class="hero-subtitle">A Passionate <span class="text-blue-300" id="typewriter-text"></span></p>
+                    <p class="hero-description">Computer Applications student with hands-on experience in software development, web technologies, and IoT-based solutions. I specialize in building scalable web applications using Java, HTML, CSS, JS, and React, with a focus on real-world utility.</p>
+                    <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4 hero-buttons">
+                        <a href="#contact" class="btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn-primary bg-transparent border border-blue-500 hover:bg-blue-600 hover:border-blue-600">My Portfolio</a>
+                        <a href="SakshamTalwarCV.pdf" download class="btn-primary bg-green-600 border border-green-700 hover:bg-green-700 hover:border-green-800">Download CV</a>
+                        <a href="https://github.com/SakshamTalwarr" target="_blank" class="btn-primary bg-gray-800 border border-gray-700 hover:bg-gray-900 hover:border-gray-800">GitHub <i class="fab fa-github text-xl ml-2"></i></a> 
+                    </div>
+                    <div class="mt-10 flex justify-center space-x-8">
+                        <a href="https://www.linkedin.com/in/Saksham-Talwar" target="_blank" rel="noopener noreferrer" class="icon-link">
+                            <i class="fab fa-linkedin-in text-2xl"></i>
+                        </a>
+                        <a href="mailto:work.sakshamtalwar@gmail.com" class="icon-link">
+                            <i class="fas fa-envelope text-2xl"></i>
+                        </a>
+                        <a href="tel:+917217739614" class="icon-link">
+                            <i class="fas fa-phone text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section-padding">
+                <div class="container animated-section">
+                    <h2>ABOUT ME</h2>
+                    <div class="flex flex-col md:flex-row items-center gap-10">
+                        <div class="md:w-1/3 text-center mb-6 md:mb-0">
+                            <img src="mypic.jpg" onerror="this.onerror=null;this.src='https://placehold.co/300x300/3B4252/D8DEE9?text=Saksham+Talwar';" alt="Saksham Talwar" class="rounded-full w-56 h-56 mx-auto object-cover border-4 border-blue-500 shadow-xl">
+                        </div>
+                        <div class="md:w-2/3 text-left">
+                            <h3 class="text-3xl font-semibold mb-5">I'm Saksham Talwar, a passionate developer based in Bengaluru.</h3>
+                            <p class="text-gray-300 text-lg mb-5">I am a Computer Applications graduate with a strong foundation in software development and IoT-based solutions. I have experience working with Java, web technologies, and real-world hardware integrations. I am a strong communicator with a collaborative mindset, eager to contribute to real-world, scalable, and user-focused software solutions.</p>
+                            <ul class="mt-8 space-y-3 text-gray-300 text-lg">
+                                <li><strong class="text-blue-400">Email:</strong> work.sakshamtalwar@gmail.com</li>
+                                <li><strong class="text-blue-400">Phone:</strong> (+91) 7217739614</li>
+                                <li><strong class="text-blue-400">Location:</strong> Bengaluru, Karnataka, India</li>
+                                <li><strong class="text-blue-400">Languages:</strong> English, Hindi, Punjabi, Basic French</li>
+                            </ul>
+                            <div class="mt-8 text-center md:text-left">
+                                <a href="SakshamTalwarCV.pdf" download class="btn-primary bg-green-600 border border-green-700 hover:bg-green-700 hover:border-green-800">Download CV <i class="fas fa-download ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="section-padding">
+                <div class="container animated-section">
+                    <h2>WHAT I DO</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="service-card">
+                            <div class="icon"><i class="fas fa-code"></i></div>
+                            <h3>Web Development</h3>
+                            <p class="text-gray-300">Building responsive and interactive web applications using Java (JSP/Servlets), React.js, HTML, CSS, and JavaScript.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+                            <h3>E-Commerce Solutions</h3>
+                            <p class="text-gray-300">Creating custom online stores using Shopify Liquid and developing custom payment flows and inventory systems.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon"><i class="fas fa-microchip"></i></div>
+                            <h3>IoT Solutions</h3>
+                            <p class="text-gray-300">Designing smart systems using ESP32, Sensors, and Blynk App for home automation and agriculture.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon"><i class="fas fa-database"></i></div>
+                            <h3>Database Architecture</h3>
+                            <p class="text-gray-300">Designing and managing databases using MySQL and SQL, optimizing for data integrity and performance.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon"><i class="fas fa-chart-bar"></i></div>
+                            <h3>Data Analytics</h3>
+                            <p class="text-gray-300">Transforming data into insights using Excel, Power BI, and Python for data interpretation and visualization.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="icon"><i class="fab fa-java"></i></div>
+                            <h3>Java Development</h3>
+                            <p class="text-gray-300">Developing robust backend systems using Core Java, JDBC, Hibernate, and Apache Tomcat.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section-padding">
+                <div class="container animated-section">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="skill-card programming">
+                            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h3>Programming Languages</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card concepts">
+                            <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                            <h3>Frameworks & Libraries</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>Apache Tomcat</li>
+                                <li>Bootstrap</li>
+                                <li>JDBC</li>
+                                <li>JSP/Servlets</li>
+                                <li>Hibernate</li>
+                                <li>React.js (Basic)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card databases">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h3>Databases</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>MySQL</li>
+                                <li>SQL</li>
+                                <li>Database Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card tools">
+                            <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Tools & Platforms</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>VS Code</li>
+                                <li>IntelliJ IDEA</li>
+                                <li>Eclipse</li>
+                                <li>Git & GitHub</li>
+                                <li>Arduino IDE</li>
+                                <li>Power BI</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card technologies">
+                            <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                            <h3>IoT & Hardware</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>ESP32</li>
+                                <li>Sensors</li>
+                                <li>Blynk App</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card concepts">
+                            <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h3>Concepts</h3>
+                            <ul class="flex flex-wrap justify-center">
+                                <li>OOP</li>
+                                <li>Data Structures</li>
+                                <li>SDLC</li>
+                                <li>Exception Handling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section-padding">
+                <div class="container animated-section">
+                    <h2>MY PROJECTS</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        
+                         <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=WeatherWise';" alt="WeatherWise Project" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>Will it Rain on my Parade?</h3>
+                                <p><strong>Tech:</strong> Java, Python, React.js</p>
+                                <p>NASA Space Apps Challenge project. Developed a hybrid app processing 20 years of historical weather data to predict rain probability for specific dates with visual graphs.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://github.com/SakshamTalwarr" target="_blank">GitHub <i class="fab fa-github ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=Grocery+System';" alt="Grocery Management System" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>Grocery Inventory System</h3>
+                                <p><strong>Tech:</strong> Java, JDBC, MySQL, Tomcat</p>
+                                <p>Java-based web app supporting CRUD operations, admin dashboard, category filtering, and CSV import/export for bulk stock updates.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://github.com/SakshamTalwarr" target="_blank">GitHub <i class="fab fa-github ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1512418490979-92798cec1380?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=SafeGuard+India';" alt="SafeGuard India Project" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>SafeGuard India</h3>
+                                <p><strong>Tech:</strong> HTML5, CSS3, JavaScript</p>
+                                <p>A rapid-access web portal for women's safety featuring a zero-latency interface, panic buttons, and a centralized database of emergency helplines.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://sakshamtalwarr.github.io/SafeGuard-India/" target="_blank">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=Pottery+Passion';" alt="The Pottery Passion" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>The Pottery Passion</h3>
+                                <p><strong>Tech:</strong> Shopify Liquid, HTML, CSS</p>
+                                <p>Custom-coded online crockery store with features like wish-lists, order management, custom payment flows, and "Buy by Video" sections.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://thepotterypassion.com" target="_blank">Live Store <i class="fas fa-external-link-alt ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=AbHappyPaws';" alt="AbHappyPaws" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>AbHappyPaws Pet Shop</h3>
+                                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                                <p>Responsive multi-page website featuring product galleries integrated with Google Photos and an AI helper for user queries.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://abhappypaws.com" target="_blank">Live Site <i class="fas fa-external-link-alt ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=400&h=220" onerror="this.onerror=null;this.src='https://placehold.co/400x220/212a35/79c0ff?text=IoT+Project';" alt="Door Unlock System" class="w-full h-48 object-cover rounded-t-lg">
+                            <div class="project-card-content">
+                                <h3>Door Unlock via Blynk</h3>
+                                <p><strong>Tech:</strong> ESP32, RFID, Blynk App</p>
+                                <p>Remote door access system using ESP32 and RFID, allowing multi-mode unlocking via smartphone app or physical switch.</p>
+                                <div class="project-links mt-4">
+                                    <a href="https://github.com/SakshamTalwarr" target="_blank">GitHub <i class="fab fa-github ml-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section-padding">
+                <div class="container animated-section">
+                    <h2>EXPERIENCE & EDUCATION</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-2xl font-semibold mb-6 text-center md:text-left">Leadership & Volunteering</h3>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Photography and Logistics Coordinator</h4>
+                                <p class="timeline-subtitle">College Festivals</p>
+                                <p class="timeline-description">Led logistics for college festivals, coordinating a team of 10 members to cover events attended by over 300 students.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Photography Club Leader</h4>
+                                <p class="timeline-description">Organized workshops and exhibitions, increasing member engagement by 20%.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Literary Club Volunteer Leader</h4>
+                                <p class="timeline-description">Led literary events and debates, enhancing campus literary culture.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Tech Event Organizer</h4>
+                                <p class="timeline-description">Organized a BGMI gaming tournament with a team of 5, engaging over 200 participants.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-semibold mb-6 text-center md:text-left">Education & Certifications</h3>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Bachelor of Computer Applications (BCA)</h4>
+                                <p class="timeline-subtitle">Maharishi Dayanand University, Rohtak</p>
+                                <p class="timeline-date">2022 - 2025 | 73.5%</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">IoT Soil Moisture Sensor Project</h4>
+                                <p class="timeline-subtitle">Hackathon Winner | SGT University</p>
+                                <p class="timeline-date">Feb 2024</p>
+                                <p class="timeline-description">Awarded for innovation in smart irrigation systems using Arduino/ESP sensors.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Summer Analytics 2025</h4>
+                                <p class="timeline-subtitle">IIT Guwahati (Consulting & Analytics Club)</p>
+                                <p class="timeline-date">July 2025</p>
+                                <p class="timeline-description">Completed 6-week program on analytics and machine learning.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">NASA Space Apps Challenge</h4>
+                                <p class="timeline-subtitle">Participant</p>
+                                <p class="timeline-date">Oct 2025</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="timeline-title">Fundamentals of Java Core & Web Programming</h4>
+                                <p class="timeline-subtitle">Anudip Foundation</p>
+                                <p class="timeline-date">Dec 2025 | Grade: A+</p>
+                            </div>
+                             <div class="timeline-item">
+                                <h4 class="timeline-title">J.P. Morgan Software Engineering</h4>
+                                <p class="timeline-subtitle">Virtual Experience (Forage)</p>
+                                <p class="timeline-date">July 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hobbies" class="section-padding">
+                <div class="container animated-section">
+                    <h2>HOBBIES</h2>
+                    <div class="text-center text-gray-300 text-lg">
+                        <p>Engaging in Technology Projects, Web Development, Photography, Moto rides, and Singing.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="contact" class="section-padding">
+                <div class="container animated-section">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="grid grid-cols-1 gap-6 contact-grid">
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fas fa-phone"></i></div>
+                                <div>
+                                    <h4 class="text-xl font-semibold">Phone</h4>
+                                    <p class="text-gray-300">+91 7217739614</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4 class="text-xl font-semibold">Email</h4>
+                                    <p><a href="mailto:work.sakshamtalwar@gmail.com" class="hover:underline">work.sakshamtalwar@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h4 class="text-xl font-semibold">Address</h4>
+                                    <p class="text-gray-300">Kumara Park West, Bengaluru, Karnataka 560020</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                                <div>
+                                    <h4 class="text-xl font-semibold">LinkedIn</h4>
+                                    <p><a href="https://www.linkedin.com/in/Saksham-Talwar" target="_blank" rel="noopener noreferrer" class="hover:underline">/Saksham-Talwar</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="iframe-container">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZevQAngm6m7gbcuWmX1lo0ffM2OhO4JWPe_SmNWbLuqKIrA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="py-8 text-center text-gray-400">
+            <div class="container">
+                <p>&copy; <span id="current-year"></span> Saksham Talwar. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to hide the welcome screen and show the main content
+            function hideWelcomeScreen() {
+                const welcomeScreen = document.getElementById('welcome-screen');
+                const mainContent = document.getElementById('main-content');
+                welcomeScreen.classList.add('fade-out');
+                setTimeout(() => {
+                    welcomeScreen.style.display = 'none';
+                    mainContent.style.display = 'block';
+                }, 1000); // Wait for the fade-out transition to complete (1s)
+            }
+
+            // Set a timer to hide the welcome screen after 3 seconds
+            setTimeout(hideWelcomeScreen, 1000); // 3 seconds delay
+
+            // Smooth Scroll for Navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    const mobileMenuButton = document.getElementById('mobile-menu-button');
+                    if (mobileMenu.classList.contains('open')) {
+                        mobileMenu.classList.remove('open');
+                        mobileMenuButton.innerHTML = '<i class="fas fa-bars"></i>';
+                    }
+                });
+            });
+
+            // Active Navigation Link Highlighting
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            const highlightNavLink = () => {
+                let current = '';
+                // Adjust this offset based on your header height to ensure correct section highlighting
+                const offset = document.querySelector('header').offsetHeight + 20;
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - offset;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').includes(current)) {
+                        link.classList.add('active');
+                    }
+                });
+                mobileNavLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').includes(current)) {
+                        link.classList.add('active');
+                    }
+                }
+                );
+            };
+
+            window.addEventListener('scroll', highlightNavLink);
+            highlightNavLink(); // Call on load to set initial active link
+
+            // Section Fade-in Animation on Scroll
+            const animatedSections = document.querySelectorAll('.animated-section');
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15 // Adjust threshold for when the section becomes visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target); // Stop observing once visible
+                    }
+                });
+            }, observerOptions);
+
+            animatedSections.forEach(section => {
+                observer.observe(section);
+            });
+
+            // Typewriter Effect for Hero Subtitle
+            const typewriterTextElement = document.getElementById('typewriter-text');
+            const phrases = ["Software Developer", "Web Developer", "Tech Enthusiast", "Java Developer", "IoT Enthusiast"];
+            let phraseIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingSpeed = 100;
+            let deletingSpeed = 50;
+            let delayBetweenPhrases = 1500;
+
+            function typeWriter() {
+                const currentPhrase = phrases[phraseIndex];
+                if (isDeleting) {
+                    typewriterTextElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typewriterTextElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+
+                if (!isDeleting && charIndex === currentPhrase.length) {
+                    isDeleting = true;
+                    setTimeout(typeWriter, delayBetweenPhrases);
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                    setTimeout(typeWriter, typingSpeed);
+                } else {
+                    setTimeout(typeWriter, isDeleting ? deletingSpeed : typingSpeed);
+                }
+            }
+            typeWriter(); // Start the typewriter effect
+
+            // Set current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('open');
+                if (mobileMenu.classList.contains('open')) {
+                    mobileMenuButton.innerHTML = '<i class="fas fa-times"></i>'; // Change to close icon
+                } else {
+                    mobileMenuButton.innerHTML = '<i class="fas fa-bars"></i>'; // Change back to bars icon
+                }
+            });
+        });
+    </script>
+</body>
+</html>
