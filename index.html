@@ -448,24 +448,23 @@
             100% { text-shadow: 0 0 10px rgba(88, 166, 255, 0.6), 0 0 20px rgba(88, 166, 255, 0.4); }
         }
 
-        /* --- Welcome Screen Styles --- */
-        #welcome-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #040607;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 2000;
-            color: #c9d1d9;
-            opacity: 0;
-            animation: fadeInWelcome 1s ease-out forwards;
-            transition: opacity 1s ease-out;
-        }
+#welcome-screen {
+    position: fixed;  /* Changed to fixed so it stays locked to the viewport */
+    top: 0;           /* Changed from 50% to 0 */
+    left: 0;
+    width: 100%;
+    height: 100vh;    /* Changed to 100vh for accurate mobile viewport sizing */
+    background-color: #040607;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    color: #c9d1d9;
+    opacity: 0;
+    animation: fadeInWelcome 1s ease-out forwards;
+    transition: opacity 1s ease-out;
+}
 
         @keyframes fadeInWelcome {
             from { opacity: 0; }
