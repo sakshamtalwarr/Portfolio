@@ -77,11 +77,15 @@ git clone https://github.com/sakshamtalwarr/Portfolio.git
 # Navigate to the folder
 cd Portfolio
 
-# Open the portfolio
-Open index.html in your web browser
-```
+# Install dependencies
+npm install
 
-> No complex build tools required — all styles/scripts are CDN-loaded.
+# Start the Vite development server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ---
 
